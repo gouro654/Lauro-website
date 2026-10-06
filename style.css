@@ -15,8 +15,8 @@ html {
 
 body {
     font-family: "Nunito", sans-serif;
-    color: #07cd25;
-    background: #8dba92f1;
+    color: #10b981;
+    background: #636663f1;
     line-height: 1.7;
 }
 
@@ -61,19 +61,19 @@ body {
 
     border-radius: 50%;
 
-    background: #0a0a0a;
+    background: #f7f6f9;
 
     font-size: 21px;
 }
 
 .logo h1 {
-    color: #050505;
+    color: #555b5e;
     font-size: 19px;
     line-height: 1.1;
 }
 
 .logo p {
-    color: #0a0a0a;
+    color: #858b8d;
     font-size: 11px;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .navbar a {
-    color: #060606;
+    color: #5d6264;
 
     font-size: 14px;
     font-weight: 600;
@@ -95,7 +95,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #ee0d10;
+    color: #8a9a8a;
 }
 
 .menu-button {
@@ -125,13 +125,13 @@ body {
     background:
         radial-gradient(
             circle at 80% 20%,
-            rgba(222, 15, 15, 0.65),
+            rgba(188, 220, 185, 0.65),
             transparent 32%
         ),
         linear-gradient(
             135deg,
-            #daa2a2,
-            #e19293
+            #f5f5ef,
+            #e9eee8
         );
 }
 
@@ -147,7 +147,7 @@ body {
 
     margin-bottom: 15px;
 
-    color: #0d0d0d;
+    color: #879889;
 
     font-size: 13px;
     font-weight: 800;
@@ -159,7 +159,7 @@ body {
 .hero h2 {
     margin-bottom: 22px;
 
-    color: #060606;
+    color: #51595a;
 
     font-size: clamp(42px, 6vw, 76px);
     line-height: 1.08;
@@ -168,7 +168,7 @@ body {
 .hero h2 span {
     display: block;
 
-    color: #0f0e0e;
+    color: #889a89;
 }
 
 .hero p {
@@ -176,7 +176,7 @@ body {
 
     margin-bottom: 30px;
 
-    color: #0b0b0b;
+    color: #687073;
 
     font-size: 18px;
 }
@@ -209,7 +209,7 @@ body {
 }
 
 .primary {
-    color: hwb(0 3% 97%);
+    color: white;
 
     background: hsl(120, 12%, 95%);
 
@@ -217,7 +217,7 @@ body {
 }
 
 .primary:hover {
-    background: #e80a0a;
+    background: #718273;
     transform: translateY(-2px);
 }
 
@@ -292,7 +292,7 @@ body {
 
     text-align: center;
 
-    background: hsl(149, 97%, 46%);
+    background: #6460e5;
 
     border: 1px solid hsl(132, 14%, 93%);
 
@@ -367,7 +367,7 @@ body {
 
     margin-bottom: 10px;
 
-    color: #111111;
+    color: #67766a;
 
     background: #e2e9e0;
 
@@ -453,13 +453,13 @@ body {
 .donation-card h3 {
     margin-bottom: 10px;
 
-    color: #0ae31f;
+    color: #56605b;
 }
 
 .donation-card p {
     margin-bottom: 20px;
 
-    color: #06f54a;
+    color: #777e7d;
 }
 
 .donation-button {
@@ -467,9 +467,9 @@ body {
 
     padding: 10px 17px;
 
-    color: rgb(7, 238, 72);
+    color: white;
 
-    background: #ddec09;
+    background: #899a8a;
 
     border: none;
     border-radius: 25px;
@@ -484,7 +484,7 @@ body {
 }
 
 .donation-button:hover {
-    background: #ecf0ec;
+    background: #6f806f;
 }
 
 .payment-info {
@@ -492,7 +492,7 @@ body {
 
     padding: 12px;
 
-    background: #c4cfdb;
+    background: #f0f3ef;
 
     border-radius: 10px;
 
@@ -524,13 +524,13 @@ body {
 
     background: white;
 
-    color: #dee8ea;
+    color: #626967;
 
     cursor: pointer;
 }
 
 .calendar-controls h3 {
-    color: #dfeae0;
+    color: #596260;
 }
 
 .calendar {
@@ -557,7 +557,7 @@ body {
 
     background: #e5e9e4;
 
-    color: #171817;
+    color: #59615d;
 
     font-weight: 800;
 }
@@ -567,7 +567,7 @@ body {
 
     padding: 10px;
 
-    border-right: 1px solid #0d0e0d;
+    border-right: 1px solid #e7e9e6;
     border-bottom: 1px solid #e7e9e6;
 
     background: #fff;
@@ -578,12 +578,12 @@ body {
 }
 
 .calendar-day.has-event {
-    background: #131313;
+    background: #edf3eb;
 }
 
 .day-number {
     font-weight: 800;
-    color: #141414;
+    color: #626a66;
 }
 
 .event-dot {
@@ -592,7 +592,7 @@ body {
     margin-top: 7px;
     padding: 4px;
 
-    color: #101010;
+    color: #526254;
 
     background: #dbe6d9;
 
@@ -610,7 +610,7 @@ body {
 .activity-list h3 {
     margin-bottom: 15px;
 
-    color: #111010;
+    color: #596260;
 }
 
 .activity-item {
@@ -679,7 +679,7 @@ body {
 
     border-radius: 20px;
 
-    box-shadow: 0 15px 40px rgb(16, 16, 16);
+    box-shadow: 0 15px 40px rgba(60, 70, 60, 0.08);
 }
 
 .form-row {
@@ -698,7 +698,7 @@ body {
 
     margin-bottom: 6px;
 
-    color: #070707;
+    color: #4ce2b0;
 
     font-size: 14px;
 
@@ -716,7 +716,7 @@ textarea {
 
     background: #fafbf9;
 
-    border: 1px solid hsl(204, 20%, 95%);
+    border: 1px solid #d7dcd7;
 
     border-radius: 9px;
 
@@ -732,7 +732,7 @@ select:focus,
 textarea:focus {
     border-color: hsl(126, 50%, 96%);
 
-    box-shadow: 0 0 0 3px hsla(188, 84%, 51%, 0.12);
+    box-shadow: 0 0 0 3px rgba(141, 160, 143, 0.12);
 }
 
 textarea {
@@ -747,7 +747,7 @@ textarea {
 
     margin-bottom: 20px;
 
-    color: #0d0e0dc1;
+    color: #e4eceac1;
 
     font-size: 13px;
 }
@@ -843,7 +843,7 @@ textarea {
 .location-content h2 {
     margin-bottom: 15px;
 
-    color: hsl(345, 13%, 6%);
+    color: #4b0fcc;
 
     font-size: 42px;
 }
@@ -863,11 +863,11 @@ textarea {
 
     background: #f6f5f9;
 
-    border: 2px dashed hsl(0, 0%, 9%);
+    border: 2px dashed hsl(115, 9%, 74%);
 
     border-radius: 20px;
 
-    color: #0d0d0d;
+    color: #04a311;
 
     font-size: 20px;
 }
@@ -880,9 +880,9 @@ textarea {
 .footer {
     padding: 60px 8% 20px;
 
-    color: hsl(120, 36%, 96%);
+    color: #dfe3df;
 
-    background: hsl(130, 23%, 68%);
+    background: #565d5d;
 }
 
 .footer-container {
@@ -900,7 +900,7 @@ textarea {
 .footer h3 {
     margin-bottom: 15px;
 
-    color: #ffffff;
+    color: white;
 }
 
 .footer-about p {
@@ -919,7 +919,7 @@ textarea {
 }
 
 .footer-links a {
-    color: hsl(0, 0%, 4%);
+    color: #cbd0cd;
 
     text-decoration: none;
 
@@ -927,7 +927,7 @@ textarea {
 }
 
 .footer-links a:hover {
-    color: rgb(230, 4, 4);
+    color: white;
 
     padding-left: 3px;
 }
@@ -943,9 +943,9 @@ textarea {
 
     gap: 20px;
 
-    border-top: 1px solid hsl(0, 0%, 2%);
+    border-top: 1px solid #0edbbc;
 
-    color: #0a0a0a;
+    color: #bfc5c1;
 
     font-size: 13px;
 }
@@ -1007,7 +1007,7 @@ textarea {
 
         background: #8da1f6;
 
-        border-bottom: 1px solid #e10711;
+        border-bottom: 1px solid #d3d6d2;
     }
 
     .navbar.active {
